@@ -1,0 +1,31 @@
+.parent-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.auth-container{
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(225, 241, 241, 0.384);
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+.form-buttons{
+    width: 20%;
+    height: 30px;
+}
+.form-inputs{
+    width: 20%;
+    height: 30px;
+}
